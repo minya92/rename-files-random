@@ -41,8 +41,8 @@ def main():
             if os.path.isfile(src):
                 # rename() function will 
                 # rename all the files 
-                # os.rename(src, dst) 
-                print(src, dst)
+                os.rename(src, dst) 
+                print(src, "->", dst)
 
 # Driver Code 
 if __name__ == '__main__': 
